@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "Book-service"
+        IMAGE_NAME = "book-service"
         CONTAINER_NAME = "book-container"
         CONTAINER_PORT = "8092"
     }
